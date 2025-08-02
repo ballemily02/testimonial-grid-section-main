@@ -28,6 +28,7 @@ body {
     color: white;
     border-radius: 10px;
     background-position: 90% 10%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card2 {
@@ -38,6 +39,7 @@ body {
     background-color: hsl(217, 19%, 35%);
     color: white;
     border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card4 {
@@ -47,6 +49,7 @@ body {
     grid-row-start: 5;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card3 {
@@ -57,6 +60,7 @@ body {
     background-color: hsl(217, 19%, 35%);
     color: white;
     border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .card5 {
@@ -66,6 +70,7 @@ body {
     grid-row-start: 2;
     background-color: white;
     border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .name-tag {
