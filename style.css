@@ -1,0 +1,127 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Barlow Semi Condensed';
+    box-sizing: border-box;
+    font-size: 10px;
+}
+
+body {
+    background-color: hsl(0, 0%, 96%);
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    gap: 15px;
+}
+    
+.card1 {
+    grid-column: span 4 / span 4;
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color: hsl(263, 55%, 52%);
+    background-image: url(/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 10px;
+    background-position: 90% 10%;
+}
+
+.card2 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 6;
+    grid-row-start: 2;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    border-radius: 10px;
+}
+
+.card4 {
+    grid-column: span 4 / span 4;
+    grid-row: span 3 / span 3;
+    grid-column-start: 4;
+    grid-row-start: 5;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card3 {
+    grid-column: span 2 / span 2;
+    grid-row: span 3 / span 3;
+    grid-column-start: 2;
+    grid-row-start: 5;
+    background-color: hsl(217, 19%, 35%);
+    color: white;
+    border-radius: 10px;
+}
+
+.card5 {
+    grid-column: span 2 / span 2;
+    grid-row: span 6 / span 6;
+    grid-column-start: 8;
+    grid-row-start: 2;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.name-tag {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.image {
+    height: 30px;
+    width: 30px;
+    border-radius: 100px;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+        
+#name-tag-text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.main-text {
+    margin: 30px;
+}
+
+@media (max-width: 600px){
+    .parent {
+        display: flex;
+        flex-direction: column;
+        margin: 50px;
+    }
+}
+
+#Daniel .image {
+    border: 2px solid hsl(264, 82%, 80%);
+}
+
+#Patrick .image {
+    border: 2px solid hsl(263, 55%, 52%);
+}
